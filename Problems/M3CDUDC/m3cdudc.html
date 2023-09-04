@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>M3CDUDC Problem Description</title>
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+</head>
+<body>
+    <h1>Minimum 3-Colorable Discrete Unit Disk Cover (M3CDUDC)</h1>
+    
+    <p>Given a set \(P\) of \(n\) points in the plane and a set \(D\) of \(m\) disks of the same radius and fixed centers, find a minimum cardinality subset \(D'\) of \(D\) so that each point in \(P\) is covered by at least one disk in \(D'\), subject to the requirement that each disk in \(D'\) is assigned one of three colors and no two disks of \(D'\) with the same color overlap.</p>
+
+    <h2>Download Files</h2>
+    <p>Click the links below to download the necessary files:</p>
+    <ul>
+        <li><a href="link_to_instances.zip">instances.zip</a></li>
+        <li><a href="link_to_results.zip">results.zip</a></li>
+    </ul>
+
+    <h2>Instance File Format</h2>
+    <p>The instance files follow the following format:</p>
+    <ol>
+        <li>Each instance file contains two numbers \(n\) and \(m\).</li>
+        <li>Following that are \(n\) lines, each containing two doubles representing the \(x\) and \(y\) coordinates of each point.</li>
+        <li>Then, there are \(m\) lines describing disks. Each line includes the \(x\) and \(y\) coordinates as well as the radius of the disk.</li>
+    </ol>
+</body>
+</html>
